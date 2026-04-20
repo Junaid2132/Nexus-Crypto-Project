@@ -1,0 +1,5 @@
+*.json
+*.tfstate
+__pycache__/
+.terraform/
+.env
