@@ -10,7 +10,7 @@ Nexus-Crypto is a production-grade data pipeline designed to ingest, process, an
 🏗️ 2. System Architecture
 
 
-![System Architecture](architecture.png)
+![Architecture](./Main%20Project%20Folder%20(Root)/architecture.png)
 
 The pipeline follows the Medallion (Bronze/Silver/Gold) Architecture:
 
@@ -74,10 +74,10 @@ unique: Prevents duplicate trade entries in the final Gold tables.
 The dashboard provides real-time monitoring of market risk.
 
 Live Price Volatility
-![Visual Insights](price_volatility.png)
+![Volatility](./Main%20Project%20Folder%20(Root)/price_volatility.png)
 
 Asset Distribution & Risk Analysis
-![Visual Insights](asset_distribution.png)
+![Distribution](./Main%20Project%20Folder%20(Root)/asset_distribution.png)
 
 
 
