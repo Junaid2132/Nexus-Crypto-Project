@@ -1,13 +1,17 @@
 🚀 Nexus-Crypto: High-Frequency Data Engineering Pipeline
 
+
 📖 1. Project Overview
+
 
 In the high-stakes world of Cryptocurrency, price volatility can liquidate portfolios in seconds. Standard batch processing is insufficient for real-time risk management.
 
 Nexus-Crypto is a production-grade data pipeline designed to ingest, process, and analyze live market data with sub-second latency. This project demonstrates the transition from local development to a fully automated cloud architecture using Industry-standard tools.
 
 
+
 🏗️ 2. System Architecture
+
 
 
 ![Architecture](./Main%20Project%20Folder%20(Root)/architecture.png)
@@ -29,7 +33,9 @@ Transformation: dbt performs SQL modeling, partitioning, and clustering.
 Orchestration: Kestra automates the entire workflow DAG.
 
 
+
 🛠 3. Tech Stack & Tools
+
 
 
 | Category | Technology |
@@ -44,7 +50,9 @@ Orchestration: Kestra automates the entire workflow DAG.
 | **Visualization** | Google Looker Studio / Streamlit |
 
 
+
 📊 4. Key Professional Features
+
 
 
 A. Optimization (Partitioning & Clustering)
@@ -68,7 +76,9 @@ not_null: Ensures critical price data is never missing.
 unique: Prevents duplicate trade entries in the final Gold tables.
 
 
+
 📈 5. Visual Insights (Dashboard)
+
 
 
 The dashboard provides real-time monitoring of market risk.
@@ -82,6 +92,7 @@ Asset Distribution & Risk Analysis
 
 
 🚀 6. How to Run This Project
+
 
 
 Prerequisites
@@ -107,7 +118,9 @@ Step 3: Run the Pipeline
 Access the Kestra UI at http://localhost:8080 and trigger the nexus_crypto_main flow.
 
 
+
 📂 7. Project Structure
+
 
 
 nexus-crypto/
